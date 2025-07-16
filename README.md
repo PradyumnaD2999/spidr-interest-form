@@ -1,12 +1,46 @@
-# React + Vite
+# Spidr Air Fryer Interest Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single-page React application built as part of a coding challenge for the Full-Stack Software Engineer (Entry-Level) position at [Spidr Design](https://spidr.design).
 
-Currently, two official plugins are available:
+The app replicates an embedded interest form for a fictional air fryer product and is designed to match the visual style of Spidr's main site.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive React form styled with **Tailwind CSS**
+- Dark-themed form UI with Spidr-inspired aesthetic
+- Live input formatting for:
+  - 💳 16-digit Spidr PIN: auto-formatted as `####-####-####-####`
+- Fully controlled form inputs
+- Form data logged to the browser console on submit
+
+---
+
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/) — for lightning-fast dev + build
+- [Vercel](https://vercel.com/) — for deployment
+
+---
+
+## Live Demo on Vercel
+
+https://spidr-interest-form-livid.vercel.app/
+
+---
+
+## How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/PradyumnaD2999/spidr-interest-form.git
+cd spidr-interest-form
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
